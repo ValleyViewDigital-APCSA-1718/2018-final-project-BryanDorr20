@@ -93,7 +93,7 @@ Pointers for your final project:
 4.	MAKE BACKUPS OF YOUR WORK!!
 5.	And, of course,…HAVE FUN :-) !!
 
-Description;
+Description:
 This is Pong, a very classic game from the Atari days that anyone can pick up and play. You got your paddles, you have the ball, don't
 let the ball get past the paddle to the other side. 
 
