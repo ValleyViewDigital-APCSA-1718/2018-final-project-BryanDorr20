@@ -93,3 +93,14 @@ Pointers for your final project:
 4.	MAKE BACKUPS OF YOUR WORK!!
 5.	And, of course,…HAVE FUN :-) !!
 
+Description;
+This is Pong, a very classic game from the Atari days that anyone can pick up and play. You got your paddles, you have the ball, don't
+let the ball get past the paddle to the other side. 
+
+How to Play:
+Paddle 1 - "w" to move up, "s" to move down
+Paddle 2 - "up arrow" to move up, "down arrow" to move down
+
+Special Features?:
+Ummm...it's Pong, there really is no special features. I mean it's endless, which means you can play forever
+which is cool I guess...which is really only because I'm really not that good at coding...
