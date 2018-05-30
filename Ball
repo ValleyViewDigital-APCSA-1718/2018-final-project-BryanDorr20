@@ -1,0 +1,98 @@
+import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
+
+/**
+ * Write a description of class Ball here.
+ * 
+ * @author (your name) 
+ * @version (a version number or a date)
+ */
+public class Ball extends Actor
+{
+    public static int count1;
+    public static int count2;
+    
+    public Ball()
+    {
+        count1 = 0;
+        count2 = 0;
+    }
+    
+    public Ball(int count1, int count2)
+    {
+        this.count1 = count1;
+        this.count2 = count2;
+    }
+    
+    public int getCount1()
+    {
+        return count1;
+    }
+    
+    public int getCount2()
+    {
+        return count2;
+    }
+    
+    /**
+     * Act - do whatever the Ball wants to do. This method is called whenever
+     * the 'Act' or 'Run' button gets pressed in the environment.
+     */
+    public void act() 
+    {
+        moveandturn();
+        removeandcount();
+        getWorld().showText(toString(),300, 50);
+    } 
+    
+    public void moveandturn()
+    {
+        move(6);
+        turn(0);
+        
+        if (isTouching(Paddle1.class))
+        {
+            turn(50);
+            move(Greenfoot.getRandomNumber(10));
+        }
+        
+        if (isTouching(Paddle2.class))
+        {
+            turn(50);
+            move(Greenfoot.getRandomNumber(10));
+        }
+        
+        if (isAtEdge())
+        {
+            turn(Greenfoot.getRandomNumber(50));
+        }
+    }
+    
+    public void removeandcount()
+    {
+        
+       
+        if(getX() < 20 && isAtEdge())
+        {
+            count2++;
+            setLocation(300,200);
+        }
+        if(getX() > 580 && isAtEdge())
+        {
+            count1++;
+            setLocation(300,200);
+        }
+    }
+    
+    public String toString()
+    {
+        String output = new String();
+        
+        output = "Endless Pong\n" +
+                 count1 + "-" + count2;
+        output += "\nThis game will never end...have fun...";         
+        
+        
+        return output;
+        
+    }
+}
