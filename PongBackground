@@ -1,0 +1,25 @@
+import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
+
+/**
+ * Help me...
+ * 
+ * Bryan Dorr Per 5 
+ * It should be senior week already..
+ */
+public class PongBackground extends World
+{
+
+    /**
+     * Constructor for objects of class PongBackground.
+     * 
+     */
+    public PongBackground()
+    {    
+        // Create a new world with 600x400 cells with a cell size of 1x1 pixels.
+        super(600, 400, 1); 
+        addObject(new Paddle1(),50, 200);
+        addObject(new Paddle2(),550,200);
+        addObject(new Ball(),300, 200);
+      
+    }
+}
