@@ -1,1 +1,42 @@
+                                                               "Pong"
 
+
+                                                           Project Summary
+For this final project, I have decided to try and recreate Pong in Greenfoot. Pong is a very classic game first created on the Atari 
+2600 where you have this ball bouncing back and forth and you control paddles to ensure that the ball does not reach the edge behind 
+your paddle. This game is going to be made a two player game, as I obviously am not smart enough to implement some sort of AI system. 
+Both players will have their own paddle to control using keys on the keyboard. It is made into an endless game that goes on forever, 
+the only thing stopping the game is your own sanity. It is a very simple game that anyone can play. Just move the paddles to the ball 
+to ensure victory. Show that you have more perserverence than your opponent and that you can pong better than them.
+
+
+                                            
+                                        Sketch Bluprint
+
+------------------------------------------------------------------------------------------------
+|                                                                                              |
+|                                                                                              |
+|                                                                                              |
+|                                                                                              |
+|                                                                                              |
+|       |                                                                               |      |
+|       |                                       o                                       |      |
+|       |                                                                               |      |
+|                                                                                              |      
+|                                                                                              |
+|                                                                                              |
+|                                                                                              |
+--------------------------------------------------------------------------------------------------
+
+
+Description:
+This is Pong, a very classic game from the Atari days that anyone can pick up and play. You got your paddles, you have the ball, don't
+let the ball get past the paddle to the other side. 
+
+How to Play:
+Paddle 1 - "w" to move up, "s" to move down
+Paddle 2 - "up arrow" to move up, "down arrow" to move down
+
+Special Features?:
+Ummm...it's Pong, there really is no special features. I mean it's endless, which means you can play forever
+which is cool I guess...which is really only because I'm really not that good at coding...
